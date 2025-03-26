@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Easy Mail Sender</title>
+</head>
+
+<style>
+    .video_background {
+    position: fixed;
+    max-width: 100%;
+    max-height: 100%;
+    content: cover;
+    z-index: -1;
+    }
+
+    .content_under_video {
+
+    color: black;
+    display: flex;
+    justify-content: center;
+    }
+
+    .ig {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    }
+</style>
+<body>
+
+<div class="video_background">
+    <video autoplay muted loop>
+        <source src="https://play.vsthemes.org/fhd/27/4427.webm">
+    </video>
+</div>
+
+<div class="content_under_video">
+    <form action="/send" method="post">
+        Адрес получателя: <input type="text" name="to"><br><br>
+        Заголовок: <input type="text" name="subject"><br><br>
+        Послание: <input type="text" name="body"><br><br>
+        <button type="submit">send</button><br><br>
+    </form>
+
+</div>
+
+<div class="ig">
+    <img src="https://content-14.foto.my.mail.ru/community/skazka-club/_groupsphoto/h-1756.jpg"
+         width="340" height="300">
+</div>
+
+
+</body>
+</html>
