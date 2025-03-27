@@ -21,10 +21,16 @@
     justify-content: center;
     }
 
-    .ig {
-    margin-top: 20px;
+    .rnd {
+    margin-top: 50px;
     display: flex;
     justify-content: center;
+    }
+
+    .ig {
+    margin-top: 20px;
+<!--    display: flex;-->
+<!--    justify-content: center;-->
     }
 </style>
 <body>
@@ -36,19 +42,22 @@
 </div>
 
 <div class="content_under_video">
-    <form action="/send" method="post">
-        Адрес получателя: <input type="text" name="to"><br><br>
-        Заголовок: <input type="text" name="subject"><br><br>
-        Послание: <input type="text" name="body"><br><br>
-        <button type="submit">send</button><br><br>
-    </form>
+
+    <div class="rnd">
+        <form action="/send" method="post">
+            Адрес получателя: <input type="text" name="to"><br><br>
+            Заголовок: <input type="text" name="subject"><br><br>
+            Послание: <input type="text" name="body"><br><br>
+            <button type="submit">send</button><br><br>
+        </form>
+    </div>
 
 </div>
 
-<div class="ig">
-    <img src="https://content-14.foto.my.mail.ru/community/skazka-club/_groupsphoto/h-1756.jpg"
-         width="340" height="300">
-</div>
+<!--<div class="ig">-->
+<!--    <img src="https://content-14.foto.my.mail.ru/community/skazka-club/_groupsphoto/h-1756.jpg"-->
+<!--         width="340" height="300">-->
+<!--</div>-->
 
 
 </body>

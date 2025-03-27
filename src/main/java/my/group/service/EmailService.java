@@ -20,7 +20,7 @@ public class EmailService {
 
     public void sendSimpleMessage(String to, String subject, String body) throws MailException {
         SimpleMailMessage message = new SimpleMailMessage();
-        message.setFrom("SCSerafim@mail.ru");
+        message.setFrom("Q816QTHM@ya.ru");
         message.setTo(to);
         message.setSubject(subject);
         message.setText(body);
